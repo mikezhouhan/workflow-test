@@ -1,0 +1,26 @@
+node_modules
+dist-electron
+release
+dist
+.env
+.env.*
+**/.DS_Store
+**/.vscode
+**/.idea
+**/package-lock.json
+scripts/
+**/scripts/
+scripts/manual-notarize.js
+
+# E2E Test artifacts
+tests/e2e/screenshots/
+tests/e2e/test-results/
+tests/e2e/screenshots/artifacts/*.png
+tests/e2e/screenshots/failures/*.png
+tests/e2e/screenshots/snapshots/
+tests/e2e/screenshots/videos/
+test-results/
+/screenshot-*.png
+/playwright-report/
+.temp-test-data/
+tests/unit/coverage

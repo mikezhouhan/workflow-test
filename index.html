@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="script-src 'self' 'unsafe-inline' 'unsafe-eval';"
+    />
+    <link rel="icon" type="image/svg+xml" href="/src/favicon.svg" />
+    <title>Interview Coding Assistant</title>
+    <script>
+      // 预加载i18n资源脚本，确保使用正确的界面语言
+      window.addEventListener('DOMContentLoaded', function() {
+        try {
+          // 尝试获取界面语言设置 (interfaceLanguage)，而不是编程语言设置
+          let interfaceLanguage = localStorage.getItem('i18nextLng') || 'en';
+          
+          // 确保语言是合法的界面语言
+          if (interfaceLanguage !== 'en' && interfaceLanguage !== 'zh-CN') {
+            console.warn(`找到非法的界面语言设置: ${interfaceLanguage}，使用默认的英文`);
+            interfaceLanguage = 'en';
+          }
+          
+          console.log(`尝试预加载界面语言: ${interfaceLanguage}`);
+          
+          // 预加载翻译文件 - 确保在生产环境和开发环境都能正确加载
+          const isProduction = window.location.protocol === 'file:';
+          const basePath = isProduction ? './locales' : '/locales';
+          
+          fetch(`${basePath}/${interfaceLanguage}/translation.json`)
+            .then(response => {
+              if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+              }
+              return response.json();
+            })
+            .then(data => {
+              console.log(`成功预加载 ${interfaceLanguage} 翻译`);
+              // 可以选择将翻译存储在全局变量中供后续使用
+              window.__PRELOADED_TRANSLATIONS = data;
+            })
+            .catch(error => {
+              console.error(`预加载翻译文件时出错:`, error);
+            });
+        } catch (error) {
+          console.error('预加载翻译脚本出错:', error);
+        }
+      });
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/renderer/main.tsx"></script>
+  </body>
+</html>

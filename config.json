@@ -1,0 +1,11 @@
+{
+  "apiKey": "",
+  "apiProvider": "openai",
+  "extractionModel": "gemini-2.0-flash",
+  "solutionModel": "gemini-2.0-flash",
+  "debuggingModel": "gemini-2.0-flash",
+  "programmingLanguage": "python",
+  "interfaceLanguage": "en",
+  "opacity": 0.6,
+  "language": "python"
+}

@@ -1,0 +1,200 @@
+{
+  "app": {
+    "title": "面试编码助手",
+    "welcome": "欢迎使用面试编码助手",
+    "initializing": "正在初始化...",
+    "please_wait": "请等待应用程序设置完成",
+    "version": "版本"
+  },
+  "button": {
+    "cancel": "取消",
+    "confirm": "确认",
+    "save": "保存",
+    "apply": "应用",
+    "close": "关闭",
+    "back": "返回",
+    "next": "下一步",
+    "delete": "删除",
+    "add": "添加",
+    "analyze": "分析",
+    "process": "处理",
+    "copy": "复制",
+    "reset": "重置",
+    "logout": "退出登录",
+    "solve": "解决",
+    "toggleWindow": {
+      "title": "显示/隐藏"
+    },
+    "screenshot": {
+      "initialTitle": "获取问题截图",
+      "subsequentTitle": "截图"
+    },
+    "debug": {
+      "title": "调试"
+    },
+    "startOver": {
+      "title": "重新开始"
+    },
+    "deleteLast": "删除最后截图"
+  },
+  "toast": {
+    "success": "成功",
+    "error": "错误",
+    "warning": "警告",
+    "info": "信息",
+    "noScreenshotsTitle": "无截图",
+    "noExtraScreenshotsDescription": "没有额外的截图可供处理。"
+  },
+  "settings": {
+    "title": "设置",
+    "api_key": "API密钥",
+    "api_key_saved": "API密钥保存成功",
+    "api_key_save_failed": "保存API密钥失败",
+    "api_key_required": "请输入您的OpenAI API密钥以继续",
+    "enter_api_key": "输入API密钥",
+    "language": "界面语言/Language",
+    "language_english": "英文",
+    "language_chinese": "中文",
+    "model": "AI模型",
+    "extraction_model": "提取模型",
+    "solution_model": "解决方案模型",
+    "debugging_model": "调试模型",
+    "programming_language": "编程语言",
+    "opacity": "窗口透明度",
+    "save_settings": "保存设置",
+    "api_provider": "API提供商",
+    "using_openai_models": "使用OpenAI模型 (gpt-4o, gpt-4o-mini)",
+    "openai_api_key": "OpenAI API密钥",
+    "current": "当前",
+    "api_key_storage_notice": "您的API密钥仅存储在本地，不会发送到任何服务器，除了用于API请求的服务",
+    "no_api_key": "没有API密钥？",
+    "create_openai_account": "在以下网站创建账号",
+    "go_to": "前往",
+    "api_keys_section": "API密钥部分",
+    "create_paste_key": "创建新的密钥并粘贴到此处",
+    "interface_language_description": "选择应用界面的显示语言",
+    "ai_model_selection": "AI模型选择",
+    "select_models_description": "为每个处理阶段选择要使用的模型",
+    "extractionModel_title": "问题提取",
+    "extractionModel_description": "用于分析截图和提取问题详情的模型",
+    "solutionModel_title": "解决方案生成",
+    "solutionModel_description": "用于生成编码解决方案的模型",
+    "debuggingModel_title": "调试",
+    "debuggingModel_description": "用于调试和改进解决方案的模型",
+    "model_description_gpt_4o": "用于问题提取的最佳整体性能",
+    "model_description_gpt_4o_mini": "更快、更经济的选项",
+    "logged_out": "已成功退出登录",
+    "logout_failed": "退出登录失败",
+    "ApiSettings": {
+      "title": "API设置",
+      "button": "配置API"
+    },
+    "logout": {
+      "title": "退出登录"
+    },
+    "provider_openai": "OpenAI",
+    "saving": "保存中...",
+    "model_name_gpt_4o": "gpt-4o",
+    "model_name_gpt_4o_mini": "gpt-4o-mini"
+  },
+  "queue": {
+    "title": "截图队列",
+    "empty": "队列中没有截图",
+    "processing": "正在处理截图...",
+    "add_more": "添加更多截图",
+    "clear": "清空队列",
+    "capture": "捕获屏幕"
+  },
+  "takeScreenshot": {
+    "first": "获取屏幕截图",
+    "second": "再次截图",
+    "third": "进行第三次截图",
+    "fourth": "进行第四次截图",
+    "fifth": "进行第五次截图",
+    "nextReplace": "下次截图将替换首次截图"
+  },
+  "shortcuts": {
+    "title": "键盘快捷键",
+    "toggle_visibility": "切换可见性",
+    "capture_screenshot": "捕获截图",
+    "process_screenshots": "处理截图",
+    "delete_last": "删除最后一个截图",
+    "show_settings": "显示设置",
+    "reset_view": "重置视图",
+    "quit_app": "退出应用",
+    "move_window": "移动窗口",
+    "decrease_opacity": "降低透明度",
+    "increase_opacity": "提高透明度",
+    "zoom_out": "缩小",
+    "reset_zoom": "重置缩放",
+    "zoom_in": "放大",
+    "toggleWindow": "切换窗口",
+    "toggle_window": "切换窗口",
+    "toggle_window_description": "显示或隐藏此窗口。",
+    "take_screenshot_title": "截取屏幕",
+    "take_screenshot_description": "截取问题描述的屏幕截图。",
+    "take_screenshot_tooltip_description": "捕获问题的其他部分或您的解决方案以获取调试帮助。",
+    "solve_title": "获取答案",
+    "solve": {
+      "description": {
+        "hasScreenshots": "根据当前问题生成解决方案。",
+        "noScreenshots": "请先截图以生成解决方案。"
+      }
+    },
+    "deleteLastScreenshot": {
+      "title": "删除最后一张截图",
+      "description": {
+        "hasScreenshots": "移除最近拍摄的截图。",
+        "noScreenshots": "没有可删除的截图。"
+      }
+    },
+    "debug": {
+      "title": "调试",
+      "description": "根据所有先前和新添加的屏幕截图生成新的解决方案。"
+    },
+    "startOver": {
+      "title": "重新开始",
+      "description": "从一个新问题重新开始。"
+    }
+  },
+  "solution": {
+    "title": "解决方案",
+    "complexity": "时间和空间复杂度",
+    "approach": "解题思路",
+    "code": "代码解决方案",
+    "generating": "正在生成解决方案...",
+    "no_solution": "还没有解决方案。处理截图以生成一个。"
+  },
+  "debug": {
+    "title": "调试",
+    "analyze": "分析代码",
+    "issues": "发现的问题",
+    "suggestions": "建议",
+    "optimized": "优化后的代码",
+    "no_code": "没有代码可以调试。请先捕获代码截图。"
+  },
+  "error": {
+    "api_key_invalid": "您的API密钥似乎无效",
+    "api_key_details": "请检查您的密钥并重试",
+    "processing_failed": "处理截图失败",
+    "screenshot_failed": "截图捕获失败",
+    "network_error": "发生网络错误",
+    "unknown_error": "发生未知错误",
+    "failedToToggleWindow": "切换窗口失败",
+    "noScreenshotsToDelete": "没有可删除的截图。",
+    "failedToDeleteScreenshot": "删除截图失败。"
+  },
+  "header": {
+    "queue": "队列",
+    "solution": "解决方案",
+    "debug": "调试",
+    "settings": "设置"
+  },
+  "welcome": {
+    "title": "欢迎使用面试编码助手",
+    "subtitle": "您的AI驱动的编码面试助手",
+    "start": "开始使用",
+    "hide_welcome": "不再显示"
+  },
+  "noScreenshots": "请先截图以生成解决方案。"
+}

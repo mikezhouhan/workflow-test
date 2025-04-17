@@ -1,0 +1,195 @@
+{
+  "app": {
+    "title": "Interview Coding Assistant",
+    "welcome": "Welcome to Interview Coding Assistant",
+    "initializing": "Initializing...",
+    "please_wait": "Please wait while the application sets up",
+    "version": "Version"
+  },
+  "button": {
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "save": "Save",
+    "apply": "Apply",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next",
+    "delete": "Delete",
+    "add": "Add",
+    "analyze": "Analyze",
+    "process": "Process",
+    "copy": "Copy",
+    "reset": "Reset",
+    "logout": "Logout",
+    "solve": "Solve",
+    "toggleWindow": {
+      "title": "Show/Hide"
+    },
+    "screenshot": {
+      "initialTitle": "Screenshot your code",
+      "subsequentTitle": "Screenshot"
+    },
+    "debug": {
+      "title": "Debug"
+    },
+    "startOver": {
+      "title": "Start Over"
+    },
+    "deleteLast": "Delete Last"
+  },
+  "toast": {
+    "success": "Success",
+    "error": "Error",
+    "warning": "Warning",
+    "info": "Info"
+  },
+  "settings": {
+    "title": "Settings",
+    "api_key": "OpenAI API Key",
+    "api_key_saved": "API key saved successfully",
+    "api_key_save_failed": "Failed to save API key",
+    "api_key_required": "Please enter your OpenAI API key to continue",
+    "enter_api_key": "Enter API Key",
+    "language": "Language",
+    "language_english": "English",
+    "language_chinese": "Chinese",
+    "model": "AI Model",
+    "extraction_model": "Extraction Model",
+    "solution_model": "Solution Model",
+    "debugging_model": "Debugging Model",
+    "programming_language": "Programming Language",
+    "opacity": "Window Opacity",
+    "save_settings": "Save Settings",
+    "api_provider": "API Provider",
+    "using_openai_models": "Using OpenAI Models (gpt-4o, gpt-4o-mini)",
+    "openai_api_key": "OpenAI API Key",
+    "current": "Current",
+    "api_key_storage_notice": "Your API keys are stored locally only and are not sent to any servers other than the services used for API requests",
+    "no_api_key": "Don't have an API key?",
+    "create_openai_account": "Create an account at",
+    "go_to": "Go to",
+    "api_keys_section": "API Keys section",
+    "create_paste_key": "Create a new key and paste it here",
+    "interface_language_description": "Select the display language for the application interface",
+    "ai_model_selection": "AI Model Selection",
+    "select_models_description": "Select which models to use for each processing stage",
+    "extractionModel_title": "Problem Extraction",
+    "extractionModel_description": "Model used to analyze screenshots and extract problem details",
+    "solutionModel_title": "Solution Generation",
+    "solutionModel_description": "Model used to generate coding solutions",
+    "debuggingModel_title": "Debugging",
+    "debuggingModel_description": "Model used to debug and improve solutions",
+    "model_description_gpt_4o": "Best overall performance for problem extraction",
+    "model_description_gpt_4o_mini": "Faster, more economical option",
+    "logged_out": "Successfully logged out",
+    "logout_failed": "Failed to logout",
+    "provider_openai": "OpenAI",
+    "saving": "Saving...",
+    "model_name_gpt_4o": "gpt-4o",
+    "model_name_gpt_4o_mini": "gpt-4o-mini",
+    "ApiSettings": {
+      "title": "API Settings",
+      "button": "Configure API"
+    },
+    "logout": {
+      "title": "Log Out"
+    }
+  },
+  "queue": {
+    "title": "Screenshot Queue",
+    "empty": "No screenshots in queue",
+    "processing": "Processing screenshots...",
+    "add_more": "Add more screenshots",
+    "clear": "Clear queue",
+    "capture": "Capture Screen"
+  },
+  "solution": {
+    "title": "Solution",
+    "complexity": "Time & Space Complexity",
+    "approach": "Approach",
+    "code": "Code Solution",
+    "generating": "Generating solution...",
+    "no_solution": "No solution yet. Process screenshots to generate one."
+  },
+  "debug": {
+    "title": "Debug",
+    "analyze": "Analyze Code",
+    "issues": "Issues Found",
+    "suggestions": "Suggestions",
+    "optimized": "Optimized Code",
+    "no_code": "No code to debug. Capture code screenshots first."
+  },
+  "error": {
+    "api_key_invalid": "Your OpenAI API key appears to be invalid",
+    "api_key_details": "Please check your key and try again",
+    "processing_failed": "Failed to process screenshot",
+    "screenshot_failed": "Failed to capture screenshot",
+    "network_error": "A network error occurred",
+    "unknown_error": "An unknown error occurred"
+  },
+  "header": {
+    "queue": "Queue",
+    "solution": "Solution",
+    "debug": "Debug",
+    "settings": "Settings"
+  },
+  "shortcuts": {
+    "title": "Keyboard Shortcuts",
+    "toggle_visibility": "Toggle Visibility",
+    "capture_screenshot": "Capture Screenshot",
+    "process_screenshots": "Process Screenshots",
+    "delete_last": "Delete Last Screenshot",
+    "show_settings": "Show Settings",
+    "reset_view": "Reset View",
+    "quit_app": "Quit App",
+    "toggle_window": "Toggle Window",
+    "toggle_window_description": "Show or hide this window.",
+    "take_screenshot_title": "Take Screenshot",
+    "take_screenshot_description": "Take a screenshot of the problem description.",
+    "take_screenshot_tooltip_description": "Capture additional parts of the question or your solution for debugging help.",
+    "solve_title": "Solve",
+    "solve": {
+      "description": {
+        "hasScreenshots": "Generate a solution based on the current problem.",
+        "noScreenshots": "Take a screenshot first to generate a solution."
+      }
+    },
+    "debug": {
+      "title": "Debug",
+      "description": "Generate new solutions based on all previous and newly added screenshots."
+    },
+    "deleteLastScreenshot": {
+      "title": "Delete Last Screenshot",
+      "description": {
+        "hasScreenshots": "Remove the most recently taken screenshot.",
+        "noScreenshots": "No screenshots to delete."
+      }
+    },
+    "startOver": {
+      "title": "Start Over",
+      "description": "Start fresh with a new question."
+    },
+    "move_window": "Move Window",
+    "decrease_opacity": "Decrease Opacity",
+    "increase_opacity": "Increase Opacity",
+    "zoom_out": "Zoom Out",
+    "reset_zoom": "Reset Zoom",
+    "zoom_in": "Zoom In"
+  },
+  "welcome": {
+    "title": "Welcome to Interview Coding Assistant",
+    "subtitle": "Your AI-powered coding interview assistant",
+    "start": "Get Started",
+    "hide_welcome": "Don't show again"
+  }
+,
+  "takeScreenshot": {
+    "first": "Take First Screenshot",
+    "second": "Take Second Screenshot",
+    "third": "Take Third Screenshot",
+    "fourth": "Take Fourth Screenshot",
+    "fifth": "Take Fifth Screenshot",
+    "nextReplace": "Take Next Screenshot (Replaces Oldest)"
+  }
+
+} 
