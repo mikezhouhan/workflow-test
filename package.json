@@ -22,7 +22,7 @@
     "e2e:clean": "rimraf tests/e2e/screenshots/{artifacts,failures,snapshots,videos}/* tests/e2e/test-results/* test-results/* playwright-report/* screenshot-*.png .temp-test-data/"
   },
   "build": {
-    "appId": "com.chunginlee.interviewcoder",
+    "appId": "com.minifold.gankinterview",
     "productName": "Interview Coder",
     "files": [
       "dist/**/*",
@@ -100,7 +100,7 @@
       {
         "provider": "github",
         "owner": "mikezhouhan",
-        "repo": "gank-interview",
+        "repo": "workflow-test",
         "private": false,
         "releaseType": "release"
       }
